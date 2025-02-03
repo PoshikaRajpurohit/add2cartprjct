@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
+<body>
+    <!-- DAY-1 -->
+    <header  class="navbar navbar-expand-md bg-dark navbar-dark sticky-top ">
+        <div class="container-fluid">
+            <a href="javascript:void(0)" class="navbar-brand">
+                <img src="img/Croma_Logo_acrkvn.svg" alt="croma" title="logo">
+            </a>
+                <button class="navbar-toggler" data-bs-target="#poshi" data-bs-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="poshi">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)"data-bs-toggle="dropdown">
+                          Products
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="javascript:void(0)">Laptop</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0)">Washing Machines</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0)">Mobile Phones</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0)">Air Conditioners</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0)">Refrigerators</a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0)">Geysers</a></li>
+                          </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:void(0)" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>  
+
+
+    <!-- product-details -->
+        <section class="model">
+            <div class="addmodel">
+                <h1>Product-Details</h1>
+            <table>
+                <form id="addpro">
+                <tr>
+                    <td>Product Name:-</td>
+                    <td><input type="text"  id="pname" /></td>
+                </tr>
+                <tr>
+                    <td>Product Category:-</td>
+                    <td><input type="text" id="pcategory"></td>
+                </tr>
+                <tr>
+                    <td>Description:-</td>
+                    <td><input type="text" id="pdesc" /></td>
+                </tr>
+                <tr>
+                    <td>Price:-</td>
+                    <td><input type="text" id="pprice"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Add Product" class="add-product" /></td>
+                </tr>
+            </form>
+            </table>
+            </div>
+        </section>
+        <div id="card-container" class="d-flex flex-wrap justify-content-center">
+        </div>
+      
+   
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>
